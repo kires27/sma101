@@ -1,4 +1,4 @@
 [build]
-base = "web"
-command = "pnpm build"
-publish = ".output/public"
+# base = "web"
+command = "npm run build"
+publish = "dist"
