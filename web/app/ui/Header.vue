@@ -34,38 +34,26 @@ async function logout() {
 					<Icon :icon="menuOpen ? 'material-symbols:close' : 'material-symbols:menu'" width="24" />
 				</button>
 
-				<div class="branding">
-					<Branding show="name" size="md" />
-				</div>
-
-				<Text variant="body-sm" tone="muted" class="divider">|</Text>
-				
 				<nav class="nav">
 					<NuxtLink :to="URI.tool.fa">
 						<Text variant="body" link>
 							investing
 						</Text>
 					</NuxtLink>
-					<NuxtLink :to="URI.tool.congress">
-						<Text variant="body" link>
-							trading
-						</Text>
-					</NuxtLink>
-					<!-- <NuxtLink :to="URI.tool.congress">
-					<Text variant="body" link>
-						CONGRESS
-					</Text>
-				</NuxtLink> -->
+					
+					
 					<NuxtLink :to="URI.tool.watchlist">
 						<Text variant="body" link>
 							watchlists
 						</Text>
 					</NuxtLink>
-					<!-- <NuxtLink :to="URI.tool.global_index">
-						<Text variant="label" link>
-							Global Index
+
+					<NuxtLink :to="URI.listStocks">
+						<Text variant="body" link>
+							symbols
 						</Text>
-					</NuxtLink> -->
+					</NuxtLink>
+					
 				</nav>
 			</div>
 

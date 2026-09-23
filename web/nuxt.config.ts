@@ -8,7 +8,6 @@ export default defineNuxtConfig({
 		"@nuxt/icon",
 		"@nuxt/image",
 		"@nuxtjs/supabase",
-		"@netlify/nuxt",
 	],
 	eslint: {},
 	runtimeConfig: {

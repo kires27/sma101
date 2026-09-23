@@ -37,7 +37,8 @@ const year = new Date().getFullYear();
 
 <template>
 	<div class="footer">
-		<div v-if="fullMode">
+		<!-- <div v-if="fullMode"> -->
+		<div v-if="false">
 			<Section width="lg" topMargin="sm" bottomMargin="sm" class="footer-top">
 				<div class="footer-col--brand">
 					<Branding show="name" />
